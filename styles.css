@@ -3,9 +3,11 @@
 }
 #intro{
    background-color: #EEF5FF;
+   padding-bottom: 20px;
 }
 #skill{
     background-color: #bfd4f0;
+    padding-bottom: 30px;
 }
 #outro{
     background-color: #567d8a;
@@ -58,6 +60,7 @@ a{
     object-fit:fill;
     border-radius: 50%;
     padding: 20px 30px;
+    padding-top: 40px;
 }
 h1{
     font-family: Italiana;
@@ -68,12 +71,12 @@ p{
     font-size: 18px;
 }
 h2{
-    font-family: Chicle;
+    font-family: Italiana;
     font-size: 30px;
     text-align: center;
 }
 h3{
-    font-family: Chicle;
+    font-family: Italiana;
     font-size: 30px;
 }
 body{
@@ -81,6 +84,12 @@ body{
 }
 @media(max-width:600px)
 {
+    #skill>h2{
+        font-size: 30px;
+    }
+    .skillcard>div>h3{
+        font-size: 20px;
+    }
     .skillcard>div>img{
         max-width: 100px;
         height: 100px;
@@ -96,10 +105,13 @@ body{
         padding-left: 15px;
         padding-right: 20px;
     }
+    h1{
+        font-size: 70px;
+    }
     h3{
-        font-size:x-large;
+        font-size:30px;
     }
     h2{
-        font-size: x-large;
+        font-size: 25px;
     }
 }
